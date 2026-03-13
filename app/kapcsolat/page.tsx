@@ -97,7 +97,7 @@ export default function ContactPage() {
                 <div>
                   <p className="font-semibold text-foreground text-sm">Székhely</p>
                   <p className="text-muted-foreground text-sm">
-                    1134 Budapest, Váci út 45.<br />Váci Greens irodaház
+                    1117 Budapest, Infopark sétány 1.<br />Infopark Budapest irodapark
                   </p>
                 </div>
               </div>
