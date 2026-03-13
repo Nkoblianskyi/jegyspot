@@ -70,18 +70,13 @@ export default function HomePage() {
             {/* Large decorative circle (ring) */}
             <div className="absolute top-1/2 right-0 w-64 h-64 -translate-y-1/2 translate-x-1/2 rounded-full border-[20px] border-accent/10 pointer-events-none" aria-hidden />
             <div className="absolute bottom-8 left-8 w-24 h-24 rounded-full border-[12px] border-accent/10 pointer-events-none" aria-hidden />
-            {/* Floating stat cards */}
-            <div className="absolute top-[18%] right-[12%] md:top-[14%] md:right-[18%] px-3 py-2 rounded-xl bg-white/90 shadow-lg border border-border/60 backdrop-blur-sm" aria-hidden>
-              <span className="flex items-center gap-1.5 text-xs font-semibold text-foreground">
-                <Ticket className="w-4 h-4 text-accent" /> 0 Ft
-              </span>
-            </div>
+            {/* Floating stat cards */} 
             <div className="absolute top-[32%] right-[8%] md:top-[28%] md:right-[10%] px-3 py-2 rounded-xl bg-white/90 shadow-lg border border-border/60 backdrop-blur-sm" aria-hidden>
               <span className="flex items-center gap-1.5 text-xs font-semibold text-foreground">
                 <Users className="w-4 h-4 text-accent" /> 6+ partner
               </span>
             </div>
-            <div className="absolute bottom-[32%] left-[10%] md:bottom-[28%] md:left-[14%] px-3 py-2 rounded-xl bg-white/90 shadow-lg border border-border/60 backdrop-blur-sm" aria-hidden>
+            <div className="absolute bottom-[32%] left-[10%] md:bottom-[8%] md:left-[14%] px-3 py-2 rounded-xl bg-white/90 shadow-lg border border-border/60 backdrop-blur-sm" aria-hidden>
               <span className="flex items-center gap-1.5 text-xs font-semibold text-foreground">
                 <Music2 className="w-4 h-4 text-accent" /> Koncertek
               </span>
